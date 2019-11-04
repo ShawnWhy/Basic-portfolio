@@ -1,0 +1,86 @@
+
+
+.header{
+    width:960px;
+    height: 150px;
+    background-color:whitesmoke;
+    position:relative;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.my-Name{
+    display:table-cell;
+    font-size:20px;
+    width: 100px;
+    background-color:lightsteelblue;
+    position:absolute;
+    left:25%;
+    top:50px;
+    text-align:center;
+    border-radius:20px;
+    height:75px;
+    vertical-align:middle;
+    
+}
+
+.linkContainer{
+position:absolute;
+top:25%;
+right:25%;
+}
+.link{
+    position:relative;
+    
+    height:75px;
+    font-size:20px;
+    width: 100px;
+    text-align:center;
+    border-radius:20px; 
+    color:black;
+    text-decoration:none;
+    
+    line-height:75px;    
+
+    /*transition-duration:1000ms;
+    transition-property:background-color;
+    transition-timing-function:ease-in;*/
+}
+.link:hover{
+    background-color:lightsteelblue;
+    color:black;
+    
+
+}
+
+    
+
+.Portfolio{
+    float:right;
+   
+}
+.aboutme{
+    float:right;
+}
+.contact{
+    float:right;
+}
+iframe{
+    height:500px;
+    border:3px solid lightsteelblue;
+    background-color:ghostwhite;
+    width: 960px;
+    overflow:auto;
+    clear:both;
+    text-align:center;    
+}
+
+
+footer{
+    overflow:both;
+    margin:0px 200px 0px 200px;
+    height:70px;
+    width:960px;
+
+    
+}
